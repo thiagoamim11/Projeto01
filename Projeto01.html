@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="Projeto01.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+
+
+	<title>Projeto 01</title>
+</head>
+<body>
+	<div>
+	<header> <!-- tag header é onde fica o cabeçalho do site -->
+		<nav class="navegacao"> <!-- tag nav é uma tag de navegaçao -->
+			<ul class="desordenada"> <!-- tag <ul> serve para criar uma lista desordenada ou seja : uma lista fora de ordem, sem numeraçao etc... -->
+
+				<li class="li1"><a href="">Home</a></li> <!-- a tag li serve para definir um valor de um item em uma lista, e deve ta sempre dentro de uma tag ul ou ol (resumindo, serve para criar uma lista li = lista-->
+				<li class="li2"><a href="">Serviços</a></li> <!-- a tag <a> é usada como se fosse uma ancora, ela pode linkar uma pagina dentro da outra -->
+                <li class="li3"><a href="">Sobre</a></li>
+                <li class="li4"><a href="">Contado</a></li>
+                <li class="li5"><a href="">Whatssapp</a></li>
+                <li class="testando">Teste</li> <!-- se eu usar o li sem por uma tag <a> dentro dele, a lista nao fica linkavel, ou seja, a lista fica apenas visivel em forma de texto. -->
+
+			</ul>
+		</nav>
+
+		<div class="clear"></div> <!-- pra limpar o cache -->
+
+
+		
+			<div class="chamadas">
+			<h2>Sistemas Próprio <br> Para Empresas Autênticas</h2> 
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.
+			</p>
+		</div>
+		
+	</div><!-- fechando a sessao da primeira div aberta -->
+		</header> <!-- fechei o cabeçalho -->
+
+		<section class="sessao1">
+			<div class="texto">
+				<h3><br><br></h3>
+				<h2 class="titulo">Desenvolvemos Sistemas Únicos</h2>
+				<p>Criado por Thiago Amim Elias</p>
+				<ul>
+					<li>Sites</li> <!-- li é de lista -->
+					<li>Lojas virtuais</li>
+					<li>Sistemas em geral</li>
+					<li>Numero de contato: (43) 9 9999-9999</li>
+				</ul>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="botao">
+                <strong>Entre em contato</strong> <!-- a tag strong ela é para destacar um texto importante dentro do codigo, e tambem deixa o texto em negrito. -->
+			</div>			
+				
+
+			<div class="clear"></div>
+
+		</section>
+
+		<section class="sessao2">
+			<h2>Coloque o seu titulo aqui</h2>
+			<p>Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria <p>sofreu algum tipo de alteração, seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes. Se você pretende usar uma passagem de Lorem Ipsum, precisa ter certeza de que não há algo embaraçoso escrito escondido no meio do texto. Todos os geradores de Lorem Ipsum na internet tendem a repetir pedaços predefinidos conforme necessário, fazendo deste o primeiro gerador de Lorem Ipsum autêntico da internet. Ele usa um dicionário com mais de 200 palavras em Latim combinado com um punhado de modelos de estrutura de frases para gerar um Lorem Ipsum com aparência razoável, livre de repetições, inserções de humor, palavras não características, etc.</p>
+		</section>
+
+		<section class="sessao3">
+			<div class="part1">
+				<h2>Titulo qualquer</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus maximus risus eget rutrum. Morbi laoreet efficitur urna eget suscipit. Pellentesque et arcu magna. Proin vel mi quis diam sollicitudin vulputate. Fusce ac dignissim elit. Nulla egestas aliquet ullamcorper. Vivamus molestie pharetra justo, ac semper orci ultricies a.</p>
+			</div>
+
+			<div class="part2">
+				<h2>Titulo qualquer</h2>
+				<p>Integer eget erat non lorem vulputate vestibulum pulvinar et neque. In a consequat turpis, in hendrerit elit. Donec felis ex, suscipit nec congue eu, elementum ut dui. Phasellus viverra, neque sit amet ornare gravida, lacus nisl tristique nisi, in iaculis dui turpis at lectus. Donec sed ipsum augue. Donec elementum, metus in pulvinar tincidunt, dolor nulla bibendum nisl, quis feugiat mi sapien sed ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut at feugiat lorem. Cras at laoreet sapien, et pellentesque mi.</p>
+			</div>
+
+			<div class="clear"></div>
+		</section>
+
+		<section class="sessao4">
+			<div class="esquerdo">
+			<div class="form">
+				<h2>Trabalhe conosco</h2>
+				<p class="texto1">Integer eget erat non lorem vulputate vestibulum pulvinar et neque. In a consequat turpis, in hendrerit elit. Donec felis ex, suscipit nec congue eu, elementum ut dui. Phasellus viverra.</p>
+
+                <div class="campo"><!-- essa div é pra mim poder manipular o campo de formulario, tipo centralizar os inputs -->
+				<form>
+					<p>Nome*</p>
+					<input type="text" name="nome" placeholder="nome*">
+					<p>Email*</p>
+					<input type="text" name="email" placeholder="email*">
+					<p>Fale sobre você*</p>
+					<textarea name="menssagem" placeholder="Deixe sua menssagem aqui*"></textarea> 
+					<input type="submit" value="Enviar">
+
+
+				</form>
+				</div>
+			</div>
+			</div>
+			
+				<div class="direito"><!-- abri uma div para manipular o lado direito da pagina se precisar -->
+					<h4>Faça uma visita a nossa empresa</h4>
+				<div id="mapa" class="mapa"><iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Ibaiti+(Meu%20mapa)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.symptoma.pt/pt/info/covid-19#info'>Os coronavírus</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=4f67e09c46fc0c41bd522e3cd3e729c86ba882e2'></script></div> <!-- div para manipular nosso mini mapa -->
+				
+				</div>
+			</div>
+
+
+			
+			
+		</section>
+
+		<footer>
+			<p class="p1">Todos os creditos reservados</p>
+			<p class="p2">thiagoamim11@gmail.com</p>
+		</footer>
+		
+
+</body>
+</html>
